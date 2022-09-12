@@ -1,0 +1,26 @@
+#texto-buttom::before {
+    content: '"Pasa por';
+    font-size:  xx-small;
+}
+
+#texto-buttom::after {
+    content: ' encima"';
+    font-size:  xx-small;
+}
+
+
+#texto-buttom:hover {
+    background-color: green;
+    color: white;
+}
+
+.contenedor #texto-buttom::before {
+    content: '"!HE';
+    font-size: xx-small;
+}
+
+.contenedor #texto-buttom::after {
+    content: 'CHO!"';
+    font-size: xx-small;
+}
+
