@@ -31,7 +31,7 @@
 
 .seccion-2 {
     background-color: antiquewhite;
-    width: 85%;
+    flex-grow: 2;
     height: 600px;
     margin-left: 10px;
     
